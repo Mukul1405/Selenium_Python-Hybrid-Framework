@@ -1,0 +1,34 @@
+#################################################################
+
+Packages & Plugins Required
+_________________________________________________________________
+Selenium - Selenium Libraries
+Pytest - Python Unit Test Framework
+pytest-html - Pytest html reports
+pytest-xdist - Run tests parallel
+Openpyxl - MS Excel Support
+Allure-pytest - to generate allure reports
+
+
+##################################################################
+
+Create Folder Structure
+__________________________________________________________________
+pageObjects(package)
+testCases(package)
+utilities(package)
+TestData(Folder)
+Configurations(Folder)
+Logs(Folder)
+Screenshots(Folder)
+Reports(Folder)
+Run.bat
+
+
+####################################################################
+
+Run the file like
+____________________________________________________________________
+pytest -v -s <testfile>
+or
+python -m pytest -v -s <testfile>
